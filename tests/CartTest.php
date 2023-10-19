@@ -8,7 +8,7 @@ use app\libraries\Product;
 
 class CartTest extends TestCase{
 
-   /* public function testAddProduct()
+    public function testAddProduct()
     {
         $product = new \App\Libraries\Product();
         $product->setName('Apple');
@@ -17,7 +17,7 @@ class CartTest extends TestCase{
         $cart->add($product);
 
         $this->assertEquals($product, $cart->getCart()[0]);
-    }*/
+    }
 
     public function testIfCartIsEmpty(){
         $cart = new Cart;
